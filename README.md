@@ -28,7 +28,7 @@ You need to fulfill some requirements to be able to use this Patcher...
 
 The Offline Skins mod was created by **LainMI**, all mod creation rights are reserved to the Mod author. You can see the Mod Official Page by clicking <a href="https://www.curseforge.com/minecraft/mc-mods/offlineskins" target="_blank">here</a>, on CurseForge. You can also go to the Mod Official GitHub by clicking <a href="https://github.com/zlainsama/OfflineSkins" target="_blank">here</a>.
 
-# How to edit this Patch
+# How to edit this Patcher
 
 The source code (and Visual Studio project) is included in this repository. You just need to have Visual Studio downloaded on your Computer and open this project with Visual Studio to edit it.
 
