@@ -1,0 +1,16 @@
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.exe
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.deps.json
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.runtimeconfig.json
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.runtimeconfig.dev.json
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.dll
+D:\NET-Visual-Studio\The Last Days Patcher\bin\Release\netcoreapp3.1\The Last Days Patcher.pdb
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The_Last_Days_Patcher.Form1.resources
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The_Last_Days_Patcher.Properties.Resources.resources
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.csproj.GenerateResource.cache
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.AssemblyInfoInputs.cache
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.AssemblyInfo.cs
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.csproj.CoreCompileInputs.cache
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.dll
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.pdb
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.genruntimeconfig.cache
+D:\NET-Visual-Studio\The Last Days Patcher\obj\Release\netcoreapp3.1\The Last Days Patcher.csprojAssemblyReference.cache

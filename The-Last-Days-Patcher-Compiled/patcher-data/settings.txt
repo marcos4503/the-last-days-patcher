@@ -1,0 +1,6 @@
+> URL to SkinsIndex.txt. The URL must have the "!skins-index.txt" file into, and all skins PNGs.
+https://example.com/skins-folder
+> Directory to cachedImages of your .minecraft of The Last Days Client.
+instances/The Last Days Client/.minecraft/cachedImages
+> Executable (.exe) file name (with extension) to be launched after patch be done.
+MultiMC.exe
