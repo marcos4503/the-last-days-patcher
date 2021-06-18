@@ -17,6 +17,10 @@ After that, you should run Patcher and it will generate a folder called "patcher
 - **At Line 4:** Here you must insert the executable directory of this Patch to the folder "cachedImage" which is inside the folder ".minecraft" of your Minecraft. The "cachedImage" folder is the folder that will receive the Skins downloaded by Patcher. The folder "cachedImages" will only appear in your ".minecraft" if you install the mod "Offline Skins" in your Minecraft. This mod requires Forge to be installed, and this mod is only compatible with Minecraft version 1.12.2. 
 - **At Line 6:** Here you must put the name (including the extension) of your Minecraft Launcher executable. It will automatically open whenever Patcher completes its work.
 
+It is very important that you always keep the "!skins-index.txt" file always up to date, referencing existing PNG files. Never leave filenames that no longer exist inside the "!skins-index.txt" file.
+
+Whenever any changes are made, skins removed or added on your server, it is necessary that the Minecraft Clients are also re-opened so that Patcher can update the Skins on them as well.
+
 # Prerequisites to use this Patcher
 
 You need to fulfill some requirements to be able to use this Patcher...
