@@ -1,3 +1,5 @@
+The Last Days Patcher is a Minecraft Patch that opens before Minecraft Launcher opens, and then it installs Skins (from a Remote server) into your Minecraft files. This way the Skins can be used by players of your ModPack in Single Player or Multiplayer. This Patcher works together with the Offline Skins mod and was developed for large scale servers, such as servers for groups of friends and so on. This is a solution for everyone to use Skins (including Multiplayer) in ModPacks Forge, regardless of the Launcher they use and so on.
+
 # To use this Patcher
 
 This Patcher must be opened before your Minecraft Launcher will open. For that, you must place this Patcher's executable (along with its files and DLLs) in the same folder as your Minecraft Launcher's executable.
