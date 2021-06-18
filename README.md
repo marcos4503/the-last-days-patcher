@@ -38,7 +38,7 @@ If you liked this Patcher and found it useful for your projects, please consider
 
 <p align="center">
     <a href="https://www.paypal.com/donate/?hosted_button_id=MVDJY3AXLL8T2" target="_blank">
-        <img src="Documentation-Template/DocumentationFiles/images/paypal-donate.png" alt="Donate" />
+        <img src="The-Last-Days-Patcher-Source/Resources/paypal-donate.png" alt="Donate" />
     </a>
 </p>
 
