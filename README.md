@@ -19,7 +19,7 @@ After that, you should run Patcher and it will generate a folder called "patcher
 
 It is very important that you always keep the "!skins-index.txt" file always up to date, referencing existing PNG files. Never leave filenames that no longer exist inside the "!skins-index.txt" file.
 
-Whenever any changes are made, skins removed or added on your server, it is necessary that the Minecraft Clients are also re-opened so that Patcher can update the Skins on them as well. If Patcher cannot access your server, the device is not connected to the Internet, Patcher cannot access the **!skins-index.txt** or cannot download any skin, an error message will be displayed and the player will be able to Try Again, or Play Without Patch.
+Whenever any changes are made, skins removed or added on your server, it is necessary that the Minecraft Clients are also re-opened so that Patcher can update the Skins on them as well. If Patcher cannot access your server, the device is not connected to the Internet, Patcher cannot access the "!skins-index.txt" or cannot download any skin, an error message will be displayed and the player will be able to Try Again, or Play Without Patch.
 
 # Prerequisites to use this Patcher
 
