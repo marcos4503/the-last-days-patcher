@@ -127,6 +127,7 @@ namespace The_Last_Days_Patcher
             //If cannot find the directory cachedImage and skins/capes folders, cancel execution of patcher
             if(Directory.Exists(pathToCachedImages + "/skins") == false || Directory.Exists(pathToCachedImages + "/capes") == false)
             {
+                MessageBox.Show("Could not find folder \"cachedImages\" in this directory. Patch cannot be done. Launcher will now start.", "Error!");
                 isPatchDoneSuccessfully = true;
                 this.Close();
                 return;

@@ -14,3 +14,19 @@ D:\NET-Visual-Studio\The Last Days Patcher\obj\Debug\netcoreapp3.1\The Last Days
 D:\NET-Visual-Studio\The Last Days Patcher\obj\Debug\netcoreapp3.1\The Last Days Patcher.pdb
 D:\NET-Visual-Studio\The Last Days Patcher\obj\Debug\netcoreapp3.1\The Last Days Patcher.genruntimeconfig.cache
 D:\NET-Visual-Studio\The Last Days Patcher\obj\Debug\netcoreapp3.1\The_Last_Days_Patcher.Properties.Resources.resources
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.exe
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.deps.json
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.runtimeconfig.json
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.runtimeconfig.dev.json
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.dll
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\bin\Debug\netcoreapp3.1\The Last Days Patcher.pdb
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.csprojAssemblyReference.cache
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The_Last_Days_Patcher.Form1.resources
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The_Last_Days_Patcher.Properties.Resources.resources
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.csproj.GenerateResource.cache
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.AssemblyInfoInputs.cache
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.AssemblyInfo.cs
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.csproj.CoreCompileInputs.cache
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.dll
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.pdb
+D:\GitHub-Repository\the-last-days-patcher\The-Last-Days-Patcher-Source\obj\Debug\netcoreapp3.1\The Last Days Patcher.genruntimeconfig.cache
