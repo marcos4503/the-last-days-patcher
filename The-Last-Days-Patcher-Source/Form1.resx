@@ -62,7 +62,7 @@
 make the Launcher Patcher. Please check your internet
 connection and try again.
 
-Also check if all settings in "PatcherData/settings.txt"
+Also check if all settings in "patcher-data/settings.txt"
 are correct.</value>
   </data>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />

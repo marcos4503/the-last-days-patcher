@@ -81,6 +81,15 @@ namespace The_Last_Days_Patcher
             InitializePatcher();
         }
 
+        private void withoutPatch_Click(object sender, EventArgs e)
+        {
+            //Launch the minecraft launcher without patch
+            isPatchDoneSuccessfully = true;
+
+            //Finally close this patcher
+            this.Close();
+        }
+
         //Core methods
 
         private void InitializePatcher()
@@ -124,7 +133,9 @@ namespace The_Last_Days_Patcher
             }
 
             //Load all usernames list
-            GetAllUsernamesListOfURL();
+            bool isSuccessfully = GetAllUsernamesListOfURL();
+            if (isSuccessfully == false) //<-- If failed to download the skin-index, stop all downloads and show error
+                return;
 
             //Clear cache of skins and capes
             DirectoryInfo skinsDirInfo = new DirectoryInfo(DIRECTORY_BASE + "/skins_cache");
@@ -139,8 +150,10 @@ namespace The_Last_Days_Patcher
             //Download all skins from usernames list
             for (int i = 0; i < allPlayersUsernames.Length; i++)
             {
-                GetASkinOrCapeAndSaveInCache(i + 1, allPlayersUsernames[i]);
+                bool isSucessfully = GetASkinOrCapeAndSaveInCache(i + 1, allPlayersUsernames[i]);
                 Application.DoEvents();
+                if (isSucessfully == false) //<-- If failed to download the skin or cape, stop all downloads and show error
+                    return;
             }
 
             //Clear skins and capes folders of cachedImages
@@ -172,7 +185,7 @@ namespace The_Last_Days_Patcher
 
         //Tools methods
 
-        private void GetAllUsernamesListOfURL()
+        private bool GetAllUsernamesListOfURL()
         {
             //create a new instance of WebClient
             WebClient client = new WebClient();
@@ -188,6 +201,8 @@ namespace The_Last_Days_Patcher
                 progressBar.Style = ProgressBarStyle.Continuous;
                 progressBar.Maximum = allPlayersUsernames.Length;
                 progressBar.Value = 0;
+                //Return sucess information
+                return true;
             }
             catch (WebException we)
             {
@@ -195,6 +210,8 @@ namespace The_Last_Days_Patcher
                 Console.WriteLine(we.Message + "\n" + we.Status.ToString());
                 //Change ui to error
                 ChangeUITo(UI_State.Error);
+                //Return error information
+                return false;
             }
             catch (NotSupportedException ne)
             {
@@ -202,10 +219,12 @@ namespace The_Last_Days_Patcher
                 Console.WriteLine(ne.Message);
                 //Change ui to error
                 ChangeUITo(UI_State.Error);
+                //Return error information
+                return false;
             }
         }
     
-        private void GetASkinOrCapeAndSaveInCache(int index, string skinName)
+        private bool GetASkinOrCapeAndSaveInCache(int index, string skinName)
         {
             //create a new instance of WebClient
             WebClient client = new WebClient();
@@ -240,6 +259,8 @@ namespace The_Last_Days_Patcher
                 //Update progress bar data
                 fileCount.Text = (index).ToString("D3") + "/" + allPlayersUsernames.Length.ToString("D3");
                 progressBar.Value += 1;
+                //Return sucess information
+                return true;
             }
             catch (WebException we)
             {
@@ -247,6 +268,8 @@ namespace The_Last_Days_Patcher
                 Console.WriteLine(we.Message + "\n" + we.Status.ToString());
                 //Change ui to error
                 ChangeUITo(UI_State.Error);
+                //Return error information
+                return false;
             }
             catch (NotSupportedException ne)
             {
@@ -254,6 +277,8 @@ namespace The_Last_Days_Patcher
                 Console.WriteLine(ne.Message);
                 //Change ui to error
                 ChangeUITo(UI_State.Error);
+                //Return error information
+                return false;
             }
         }
     }

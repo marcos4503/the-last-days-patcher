@@ -37,6 +37,7 @@ namespace The_Last_Days_Patcher
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.panelError = new System.Windows.Forms.Panel();
             this.tryAgain = new System.Windows.Forms.Button();
+            this.withoutPatch = new System.Windows.Forms.Button();
             this.errorTitle = new System.Windows.Forms.Label();
             this.credits = new System.Windows.Forms.Label();
             this.patcherTitle = new The_Last_Days_Patcher.TransparentLabel();
@@ -83,10 +84,10 @@ namespace The_Last_Days_Patcher
             this.fileCount.AutoSize = true;
             this.fileCount.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.fileCount.Location = new System.Drawing.Point(229, 94);
+            this.fileCount.MinimumSize = new System.Drawing.Size(47, 13);
             this.fileCount.Name = "fileCount";
             this.fileCount.Size = new System.Drawing.Size(47, 13);
             this.fileCount.TabIndex = 2;
-            this.fileCount.Text = "000/000";
             this.fileCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // progressBar
@@ -102,6 +103,7 @@ namespace The_Last_Days_Patcher
             // panelError
             // 
             this.panelError.Controls.Add(this.tryAgain);
+            this.panelError.Controls.Add(this.withoutPatch);
             this.panelError.Controls.Add(this.errorTitle);
             this.panelError.Location = new System.Drawing.Point(0, 157);
             this.panelError.Name = "panelError";
@@ -111,13 +113,23 @@ namespace The_Last_Days_Patcher
             // 
             // tryAgain
             // 
-            this.tryAgain.Location = new System.Drawing.Point(86, 168);
+            this.tryAgain.Location = new System.Drawing.Point(16, 185);
             this.tryAgain.Name = "tryAgain";
             this.tryAgain.Size = new System.Drawing.Size(133, 23);
             this.tryAgain.TabIndex = 1;
             this.tryAgain.Text = "Try Again";
             this.tryAgain.UseVisualStyleBackColor = true;
             this.tryAgain.Click += new System.EventHandler(this.tryAgain_Click);
+            // 
+            // withoutPatch
+            // 
+            this.withoutPatch.Location = new System.Drawing.Point(155, 185);
+            this.withoutPatch.Name = "withoutPatch";
+            this.withoutPatch.Size = new System.Drawing.Size(133, 23);
+            this.withoutPatch.TabIndex = 2;
+            this.withoutPatch.Text = "Play Without Patch";
+            this.withoutPatch.UseVisualStyleBackColor = true;
+            this.withoutPatch.Click += new System.EventHandler(this.withoutPatch_Click);
             // 
             // errorTitle
             // 
@@ -193,6 +205,7 @@ namespace The_Last_Days_Patcher
         private System.Windows.Forms.Label patchStats;
         private System.Windows.Forms.Label fileCount;
         private TransparentLabel patcherTitle;
+        private System.Windows.Forms.Button withoutPatch;
     }
 }
 

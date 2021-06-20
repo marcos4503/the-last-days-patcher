@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET-Visual-Studio\\The Last Days Patcher\\The Last Days Patcher.csproj",
+      "projectUniqueName": "D:\\GitHub-Repository\\the-last-days-patcher\\The-Last-Days-Patcher-Source\\The Last Days Patcher.csproj",
       "projectName": "The Last Days Patcher",
-      "projectPath": "D:\\NET-Visual-Studio\\The Last Days Patcher\\The Last Days Patcher.csproj",
+      "projectPath": "D:\\GitHub-Repository\\the-last-days-patcher\\The-Last-Days-Patcher-Source\\The Last Days Patcher.csproj",
       "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
-      "outputPath": "D:\\NET-Visual-Studio\\The Last Days Patcher\\obj\\",
+      "outputPath": "D:\\GitHub-Repository\\the-last-days-patcher\\The-Last-Days-Patcher-Source\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
